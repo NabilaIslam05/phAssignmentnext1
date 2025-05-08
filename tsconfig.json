@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                  // Support for flat(), async/await, etc.
+    "module": "commonjs",                // For Node.js compatibility
+    "lib": ["ES2020", "DOM"],            // DOM for console/log, ES2020 for Promise, flat()
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
